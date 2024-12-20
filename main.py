@@ -25,3 +25,4 @@ try:
     intersectionAreaMultiRect(incorrect_rectangles)
 except RectCorrectError as e:
     print(e)
+                                
