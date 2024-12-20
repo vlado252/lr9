@@ -2,7 +2,7 @@ def isCorrectRect(points):
      (x1, y1), (x2, y2) = points 
      return x1 < x2 and y1 < y2
 
-class RectCorrectError(Exception):
+class RectCorrectError(Exception):   
     pass
 
 def isCollisionRect(rect1, rect2):
